@@ -7,7 +7,7 @@
 
 ## Instruction list (from [Wikipedia](https://en.wikipedia.org/wiki/Befunge))
 | Instruction | Description |
-|:-----------:|:-----------:|
+|:-----------:|:------------|
 | 0-9 |	Push this number on the stack |
 | + |	Addition: Pop a and b, then push a+b |
 | - |	Subtraction: Pop a and b, then push b-a |
