@@ -5,6 +5,15 @@
 ```gcc befunge.c -o befunge``` or ```make```
 
 
+## What is this?
+
+Befunge is an esoteric stack-based self modifying programming language. Instead of a program counter in one dimention, instructions in Befunge are placed in 2D. Here is an example factorial code (from [esolangs](https://esolangs.org/wiki/Befunge#Factorial))
+```
+&>:1-:v v *_$.@
+ ^    _$>\:^  
+```
+The program counter starts at the top left corner and moves towards the right by default. The first instruction is '&' (number input). The direction of the program counter is altered with ```>, v, <, ^``` to make a loop that essentially subtracts by 1 and multiplies until the factorial is calculated. Details of each instruction is given in the instruction list below.
+
 ## Instruction list (from [Wikipedia](https://en.wikipedia.org/wiki/Befunge))
 | Instruction | Description |
 |:-----------:|:------------|
@@ -37,9 +46,4 @@
 |@  |	End program |
 |(space) |	No-op. Does nothing |
 
-## Example factorial program (From [Esolangs.org](https://esolangs.org/wiki/Befunge#Factorial))
-Asks user for input, then computes factorial and writes to screen
-```
-&>:1-:v v *_$.@
- ^    _$>\:^  
-```
+## Example factorial program ()
