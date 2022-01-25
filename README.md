@@ -45,5 +45,3 @@ The program counter starts at the top left corner and moves towards the right by
 |~  |	Ask user for a character and push its ASCII value |
 |@  |	End program |
 |(space) |	No-op. Does nothing |
-
-## Example factorial program ()
