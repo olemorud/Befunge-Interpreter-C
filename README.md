@@ -5,7 +5,7 @@
 ```gcc befunge.c -o befunge``` or ```make```
 
 
-## What is this?
+## Befunge
 
 Befunge is an esoteric stack-based self modifying programming language. Instead of a program counter in one dimention, instructions in Befunge are placed in 2D. Here is an example factorial code (from [esolangs](https://esolangs.org/wiki/Befunge#Factorial))
 ```
