@@ -5,10 +5,7 @@
 #include <ctype.h>
 #include <string.h>
 
-#define SLEEPDELAYMS 1
-#define ANIMATIONMODE 1
-#define MAXITERATION 1000
-#define STACKSIZE 1000
+#include "config.h"
 
 
 void printCode(const char *code, const int size, const int width, const int pos, const int *stack, const int stackPtr);
@@ -17,7 +14,7 @@ void printHelp(const char *execName);
 
 
 /**
- * @brief Reads befunge code from a file or defaults to a factorial program. Translates befunge code to emojis
+ * @brief Reads befunge code from a file or defaults to a factorial program. Displays befunge code to emojis
  */
 int main(int argc, char *argv[]){
     char *program;              // Program string (can be self modifying, so programs can never be const)
